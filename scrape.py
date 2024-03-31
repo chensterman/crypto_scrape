@@ -146,7 +146,7 @@ def scrape(token: str, chain: str):
         "dextools": dextools_data,
         "cmc": cmc_data,
         "address_results": address_data,
-        "address_versbose_results": address_verbose_data,
+        "address_verbose_results": address_verbose_data,
         "google_results": google_data,
     }
 
