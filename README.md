@@ -53,7 +53,7 @@ For `uniswap` as token name and `ethereum` as blockchain name:
 				'last_updated': '2024-03-31T22:37:00.000Z',
 			},
 		},
-		'url': 'https://coinmarketcap.com/currencies/uniswap',
+		'link': 'https://coinmarketcap.com/currencies/uniswap',
 	},
 	'address_results': [
 		{'link': 'https://docs.uniswap.org/contracts/v3/reference/deployments', 'snippet': 'Every Uniswap pool is a unique instance of the UniswapV3Pool contract and is deployed at its own unique address. The contract source code of the pool will be ...'},

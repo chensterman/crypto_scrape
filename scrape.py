@@ -84,7 +84,7 @@ def cmc_scrape(token: str):
         token_key = list(response["data"])[0]
         market_data = response["data"][token_key]["quote"]
         url = f"https://coinmarketcap.com/currencies/{slug}"
-        return {"market_data": market_data, "url": url}
+        return {"market_data": market_data, "link": url}
     except Exception as e:
         return {"error": str(e)}
     
